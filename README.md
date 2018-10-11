@@ -1,4 +1,4 @@
 # RAWDATA
 RAWDATA
 
-SÅ ER VI IGANG!
+SÅ ER VI IGANG! ( ͡° ͜ʖ ͡°)
