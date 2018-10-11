@@ -1,11 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
+using Xunit;
 
-namespace EchoServer
+namespace Assignment3TestSuite
 {
+
+    public class Response
+    {
+        public string Status { get; set; }
+        public string Body { get; set; }
+    }
+
+    public class Category
+    {
+        [JsonProperty("cid")]
+        public int Id { get; set; }
+        [JsonProperty("name")]
+        public string Name { get; set; }
+    }
     class Program
     {
         static void Main(string[] args)
