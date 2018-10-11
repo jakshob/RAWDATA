@@ -1,2 +1,4 @@
 # RAWDATA
 RAWDATA
+
+SÅ ER VI IGANG!
